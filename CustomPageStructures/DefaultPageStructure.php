@@ -9,7 +9,7 @@ use FriskWebToolBox\PageStructureCreator;
 class DefaultPageStructure extends PageStructureCreator{
     public static function insertHead($headFunction=null, $data=null){
         echo "<head>";
-        echo "<title>coMand</title>";
+        echo "<title>Title</title>";
         echo "<meta charset=\"UTF-8\">";
         echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">";
         echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/css/main.css'>";
