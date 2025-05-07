@@ -1,0 +1,68 @@
+.headerLogo{
+    width: 5vw;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header .titleDiv{
+    color: #0a5fa2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+.fit-content{
+    width: fit-content;
+    height: fit-content;
+}
+
+html * a{
+    color: black;
+}
+
+.overflow-x-clip{
+    overflow-x: clip;
+}
+
+.optgroupTitle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cellBackgroundRed{
+    background-color: #ff3f3f !important;
+}
+
+.cellBackgroundOrange{
+    background-color: orange !important;
+}
+
+.linkHover{
+    text-decoration: none;
+}
+
+.linkHover:hover{
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.table-pink > td{
+    background-color: #ff77c3 !important;
+}
+
+.btnLnk{
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: #0d6efd;
+}
