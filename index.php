@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/inc/CustomPageStructures/DefaultPageStructure.php";
+require_once __DIR__ . "/CustomPageStructures/DefaultPageStructure.php";
 
 use CustomPageStructures\DefaultPageStructure;
 

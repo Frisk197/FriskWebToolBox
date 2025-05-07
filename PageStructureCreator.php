@@ -1,6 +1,6 @@
 <?php
 
-namespace inc;
+namespace FriskWebToolBox;
 
 class PageStructureCreator{
     public static function insertHead($headFunction=null, $data=null){

@@ -4,7 +4,7 @@ namespace CustomPageStructures;
 
 require_once __DIR__ . "/../PageStructureCreator.php";
 
-use inc\PageStructureCreator;
+use FriskWebToolBox\PageStructureCreator;
 
 class DefaultPageStructure extends PageStructureCreator{
     public static function insertHead($headFunction=null, $data=null){
@@ -12,25 +12,25 @@ class DefaultPageStructure extends PageStructureCreator{
         echo "<title>coMand</title>";
         echo "<meta charset=\"UTF-8\">";
         echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">";
-        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/inc/css/main.css'>";
-        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/inc/css/bootstrap/bootstrap.css'>";
-        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/inc/css/datatables.min.css'>";
-        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/inc/css/bootstrap-select/bootstrap-select.min.css'>";
+        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/css/main.css'>";
+        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/css/bootstrap/bootstrap.css'>";
+        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/css/datatables.min.css'>";
+        echo "<link rel='stylesheet' href='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/css/bootstrap-select/bootstrap-select.min.css'>";
         echo "<script type='text/javascript' src='https://code.jquery.com/jquery-3.7.1.js'></script>";
-        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/javascript/ToastScript.js'></script>";
-        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/javascript/hscDecode.js'></script>";
-        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/javascript/bootstrap/bootstrap.bundle.js'></script>";
-        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/javascript/SelectElement.js'></script>";
-        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/javascript/datatables.min.js'></script>";
-        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/javascript/bootstrap-select/bootstrap-select.js'></script>";
-        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/javascript/bootstrap-select/i18n/defaults-fr_FR.min.js'></script>";
+        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/javascript/ToastScript.js'></script>";
+        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/javascript/hscDecode.js'></script>";
+        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/javascript/bootstrap/bootstrap.bundle.js'></script>";
+        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/javascript/SelectElement.js'></script>";
+        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/javascript/datatables.min.js'></script>";
+        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/javascript/bootstrap-select/bootstrap-select.js'></script>";
+        echo "<script type='text/javascript' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/javascript/bootstrap-select/i18n/defaults-fr_FR.min.js'></script>";
         echo "</head>";
     }
 
     public static function insertHeader($headerFunction=null, $data=null, $title=null, $subTitle=null){
         echo "<header class='d-flex col'>";
         $logo = "Your-Logo-here.png";
-        echo "<a href='http://" . $_SERVER['HTTP_HOST'] . "/'><img id='headerLogo' class='headerLogo' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/images/$logo" . "'></a>";
+        echo "<a href='http://" . $_SERVER['HTTP_HOST'] . "/'><img id='headerLogo' class='headerLogo' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/images/$logo" . "'></a>";
         echo "<div class='titleDiv'><h1>$title</h1><h5>$subTitle</h5></div>";
         echo "<div id='emptyHeaderDiv' class='d-flex justify-content-center'></div>";
         echo "</div>";

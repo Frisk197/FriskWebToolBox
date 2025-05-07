@@ -1,6 +1,6 @@
 <?php
 
-namespace phpUtils;
+namespace FriskWebToolBox\phpUtils;
 
 class PathLinkPrinter
 {
@@ -12,7 +12,7 @@ class PathLinkPrinter
             }
             echo "<a href='" . $value['link'] . "'>";
             if(!empty($value['image'])){
-                echo "<img style='height: 25px; width: auto;' src='http://" . $_SERVER['HTTP_HOST'] . "/inc/images/" . $value['image'] . "'>";
+                echo "<img style='height: 25px; width: auto;' src='http://" . $_SERVER['HTTP_HOST'] . "/FriskWebToolBox/images/" . $value['image'] . "'>";
             } else if(!empty($value['name'])){
                 echo $value['name'];
             } else {

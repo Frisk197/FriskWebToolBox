@@ -1,6 +1,6 @@
 <?php
 
-namespace phpUtils;
+namespace FriskWebToolBox\phpUtils;
 
 class DateSelector
 {
