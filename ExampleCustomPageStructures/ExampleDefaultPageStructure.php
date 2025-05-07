@@ -1,12 +1,12 @@
 <?php
 
-namespace CustomPageStructures;
+namespace ExampleCustomPageStructures;
 
 require_once __DIR__ . "/../PageStructureCreator.php";
 
 use FriskWebToolBox\PageStructureCreator;
 
-class DefaultPageStructure extends PageStructureCreator{
+class ExampleDefaultPageStructure extends PageStructureCreator{
     public static function insertHead($headFunction=null, $data=null){
         echo "<head>";
         echo "<title>Title</title>";

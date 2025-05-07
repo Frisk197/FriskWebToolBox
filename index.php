@@ -1,9 +1,9 @@
 <?php
 
-require_once __DIR__ . "/CustomPageStructures/DefaultPageStructure.php";
+require_once __DIR__ . "/ExampleCustomPageStructures/ExampleDefaultPageStructure.php";
 
-use CustomPageStructures\DefaultPageStructure;
+use ExampleCustomPageStructures\ExampleDefaultPageStructure;
 
-DefaultPageStructure::buildDefaultPage('Title', 'subTitle', function (){
+ExampleDefaultPageStructure::buildDefaultPage('Title', 'subTitle', function (){
     echo "content of the page";
 });
